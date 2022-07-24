@@ -1,13 +1,32 @@
 $(document).ready(function() {
     $(".news_card_wrapper.owl-carousel").owlCarousel({
         items: 1,
-        loop: true,
+        // loop: true,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 6000,
         smartSpeed: 2000,
         margin: 30,
     });
-});
-document.addEventListener("DOMContentLoaded", function() {
-    alert("Ss")
+    $(".post_withe_carousel.owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        smartSpeed: 2000,
+        margin: 30,
+        center: true,
+        stagePadding: 250,
+
+    });
+    $(".most_viewd_slider.owl-carousel").owlCarousel({
+        items: 1,
+        // loop: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        smartSpeed: 2000,
+        margin: 30,
+        center: true,
+        // stagePadding: 250,
+
+    });
 })
